@@ -1,0 +1,5 @@
+name,icon,left,top,xrange,yrange
+menu,menu_icon.png,1870,75,50,60
+rps,rps_icon.png,1560,264,100,100
+mmls,mmls_icon.png,1210,300,500,300
+attd,attd_icon.png,440,350,500,500
