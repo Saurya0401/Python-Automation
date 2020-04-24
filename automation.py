@@ -1,10 +1,9 @@
-# todo: quick email, github
+﻿# todo: quick email, .gitignore
 # pyautogui.displayMousePosition()
 
 from PIL import Image
 import csv
 import pyautogui
-import pyperclip
 import pyzbar.pyzbar
 import os
 import requests
@@ -137,11 +136,7 @@ def get_weather(city="here"):
 
 
 def get_item():
-    if len(sys.argv) > 1:
-        item = " ".join(sys.argv[1:])
-    else:
-        item = pyperclip.paste()
-    return item
+    return " ".join(sys.argv[1:]) if len(sys.argv) > 1 else ''
 
 
 def google_search(term=''):
