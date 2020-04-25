@@ -1,7 +1,4 @@
-﻿# todo: quick email, .gitignore
-# pyautogui.displayMousePosition()
-
-from PIL import Image
+﻿from PIL import Image
 import csv
 import pyautogui
 import pyzbar.pyzbar
