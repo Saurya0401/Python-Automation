@@ -1,6 +1,4 @@
 from automation import get_item, screencap, qr_reader
-# todo: do this with get_item()
-# todo: click login icon
 
 
 def attd():
