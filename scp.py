@@ -4,6 +4,7 @@ from os import path, mkdir
 
 
 def scp():
+    # gui option
     if not path.exists(f"{home_path}\\Desktop\\Screencaps"):
         mkdir(f"{home_path}\\Desktop\\Screencaps")
     default_name = datetime.strftime(datetime.now(), "%d%m%Y-%H%M%S")
