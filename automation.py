@@ -10,7 +10,8 @@ import tkinter as tk
 import urllib.parse
 import webbrowser
 
-auto_path = f"{os.environ['HOMEPATH']}\\Desktop\\Python Projects\\Automation"
+home_path = os.environ['HOMEPATH']
+auto_path = f"{home_path}\\Desktop\\Python Projects\\Automation"
 
 
 class DelayMsgBox(tk.Tk):
@@ -132,8 +133,8 @@ def get_weather(city="here"):
             exit_with_errmsg(errors[response.status_code])
 
 
-def get_item():
-    return " ".join(sys.argv[1:]) if len(sys.argv) > 1 else ''
+def get_item(concatenator=" "):
+    return concatenator.join(sys.argv[1:]) if len(sys.argv) > 1 else ''
 
 
 def google_search(term=''):
