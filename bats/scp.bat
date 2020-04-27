@@ -1,1 +1,0 @@
-@python "C:\Users\saury\Desktop\Python Projects\Automation\scp.py" %*
